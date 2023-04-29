@@ -15,7 +15,7 @@
     <div class="container py-4"  >
       <div class="row">
         <div class="col-md-3 col-sm-6 mb-4" >
-          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
             <img class="img-thumbnail bg-transparent invertir" src="img/favicon.png" 
               alt="Bootstrap logo"/>
           </a>
@@ -68,6 +68,6 @@
     </div>
     <div class="text-center p-4" style="background-color: #26ade4">
       © 2023  | Sitio web creado por
-      <a class="text-light fw-bold" href="https://www.linkedin.com/in/americo-julio-alvarez-42653724b/">La quinta dimensión</a>
+      <a class="text-light fw-bold" href="https://www.linkedin.com/in/americo-julio-alvarez-42653724b/">La Quinta Dimensión</a>
     </div>
   </footer>

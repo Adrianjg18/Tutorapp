@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
           <img class="bg-transparent" src="img/favicon.png" width="80" height="60"
             alt="Bootstrap logo" />
         </a>
@@ -18,16 +18,16 @@
                     <a class="nav-link px-2 active" aria-current="page" href="index.php">Inicio</a>
                 </li>            
                 <li>
-                    <a class="nav-link px-2 active" aria-current="page" href="#servi" >Tutores</a>
+                    <a class="nav-link px-2 active" aria-current="page" href="index.php?op=tutores_tutores" >Tutores</a>
                 </li>
                 <li>
-                    <a class="nav-link px-2 active" aria-current="page" href="#preci">Foros</a>
+                    <a class="nav-link px-2 active" aria-current="page" href="index.php?op=foros_foros">Foros</a>
                 </li>
                 <li>
-                    <a class="nav-link px-2 active" aria-current="page" href="#testi">Acerca De</a>
+                    <a class="nav-link px-2 active" aria-current="page" href="index.php?op=acercade_acercade">Acerca De</a>
                 </li>
                 <li>
-                    <a class="nav-link px-2 active" aria-current="page" href="#conta">Contacto</a>
+                    <a class="nav-link px-2 active" aria-current="page" href="index.php?op=contacto_contacto">Contacto</a>
                 </li>
             </ul>
             
@@ -35,7 +35,9 @@
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
+                <a href="contenido/login/login.php" class="btn btn-outline" role="button">Ingresar</a>
             </form>
         </div>
     </div>
 </nav>
+

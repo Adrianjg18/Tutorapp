@@ -2,7 +2,7 @@
 // Controlando los parametros GET que ingresaran a traves de la URL.
 // Ej: localhost/cursojs/index.php?op=leccion1_prueba
 if (empty($_GET["op"])){
-    $ruta = "contenido_principal";
+    $ruta = "inicio/inicio";
 } else {
     $op = $_GET["op"];
     // Seperando nombre carpeta de archivo
@@ -16,6 +16,13 @@ if (empty($_GET["op"])){
     }
 } // if empty
 ?>
+
+<?php
+    include 'database/db_connection.php';
+    $conn = OpenCon();
+    CloseCon($conn);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,8 +57,8 @@ if (empty($_GET["op"])){
 
         <!-- Contenido -->
         <div class="col-12 p-2 text-center">
-
-            <?php include("archivos/menuvertical.php")?>
+                <?php include("contenido/".$ruta.".php");
+                ?>
 
         </div>
 
