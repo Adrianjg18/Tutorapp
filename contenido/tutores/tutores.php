@@ -16,23 +16,23 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/tutor1.jpg" class="d-block w-100" alt="Primer slide">
-      <div class="carousel-caption">
-        <h3>Primer slide</h3>
-        <p>Esta es la descripción del primer slide</p>
+      <div class="carousel-caption text-black bg-white">
+        <h3>Carlos Gomez</h3>
+        <p>Educador de Matematicas con 10 años de experiencia enseñando a niños de primaria</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/tutor2.jpg" class="d-block w-100" alt="Segundo slide">
-      <div class="carousel-caption">
-        <h3>Segundo slide</h3>
-        <p>Esta es la descripción del segundo slide</p>
+      <div class="carousel-caption text-black bg-white">
+        <h3>Rebecca Xiang</h3>
+        <p>Educadora de Quimica con 5 años de experiencia enseñando a niños de secundaria</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/tutor3.jpg" class="d-block w-100" alt="Tercer slide">
-      <div class="carousel-caption">
-        <h3>Tercer slide</h3>
-        <p>Esta es la descripción del tercer slide</p>
+      <div class="carousel-caption text-black bg-white">
+        <h3>Tabitha Jones</h3>
+        <p>Educadora de Bioligia con 7 años de experiencia enseñando a niños de primaria</p>
       </div>
     </div>
   </div>
