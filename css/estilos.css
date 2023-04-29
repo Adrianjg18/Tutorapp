@@ -1,0 +1,21 @@
+/*para darle estilo al div de boton que sebue*/
+#myDiv {
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+
+	footer img {
+		display: block;
+		margin: 0 auto;
+		width: 60%;
+	}
+	
+	.list-unstyled{
+		color: black;
+	}
+	
+	h2{
+		color: black;
+	}
