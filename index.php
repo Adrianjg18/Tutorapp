@@ -41,7 +41,7 @@ if (empty($_GET["op"])){
     <div class="container">
         <!-- Encabezado -->
         <div class="row border-bottom">
-            <div class="col-12 p-2 text-center">
+            <div class="col-12 p-2 text-start">
 
                 <?php include("archivos/encabezado.php"); ?>
 
@@ -49,14 +49,11 @@ if (empty($_GET["op"])){
         </div>
 
         <!-- Contenido -->
-        <div class="row">
-            <div class="col col-lg-3 p-2">
-                <?php include("archivos/menuvertical.php")?>
-            </div>
-            <div class="col col-lg-9 p-2 border" style="height: 600px">
-                <?php include("./contenido/".$ruta.".php");
-                ?>
-            </div>
+        <div class="col-12 p-2 text-center">
+
+            <?php include("archivos/menuvertical.php")?>
+
+        </div>
 
         <!-- Pie -->
         <div class="row">

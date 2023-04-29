@@ -4,7 +4,7 @@
           <img class="bg-transparent" src="img/favicon.png" width="80" height="60"
             alt="Bootstrap logo" />
         </a>
-        <div>
+        <div class="text-wrap fw-bold">
             <a class="nav-link px-2 active" aria-current="page" href="index.php">TUTOR</a>
             <a class="nav-link px-2 active" aria-current="page" href="index.php">APP</a>
         </div>

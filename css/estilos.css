@@ -19,3 +19,56 @@
 	h2{
 		color: black;
 	}
+	/* Estilos para la sección del Jumbotron */
+.jumbotron {
+	background-image: url("https://example.com/bg-image.jpg");
+	background-size: cover;
+	color: clabk
+	;
+	text-align: center;
+	padding: 100px 0;
+  }
+  
+  .jumbotron h1 {
+	font-size: 4rem;
+	margin-bottom: 2rem;
+  }
+  
+  .jumbotron p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+  }
+  
+  /* Estilos para la sección de características */
+  .features {
+	padding: 100px 0;
+  }
+  
+  .features h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  .features p {
+	font-size: 1.25rem;
+  }
+  
+  /* Estilos para la sección CTA */
+  .cta {
+	background-color: #f8f8f8;
+	text-align: center;
+	padding: 100px 0;
+  }
+  
+  .cta h2 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+  }
+  
+  .cta a {
+	font-size: 1.5rem;
+  }
+	
+	.mb-3 {
+    margin-bottom: 1.5rem;
+  }
